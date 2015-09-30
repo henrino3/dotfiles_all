@@ -1,0 +1,4 @@
+curl -sL http://i-hate-farms.github.io/spores/install | sudo bash -
+sudo apt-get install elementary-tweaks
+
+
