@@ -102,22 +102,24 @@ alias path="pantheon-files"
 alias gm="cd ~/genymotion && ./genymotion"
 alias hs="hillsong"
 alias rm="rm -R"
-alias ..="cd ../"
-alias ...="../../"
+alias c.="cd ../"
+alias c...="../../"
 alias s="subl"
 alias h="sudo pm-hibernate"
 alias wget="wget -c"
 alias rainbow='yes "$(seq 231 -1 16)" | while read i; do printf "\x1b[48;5;${i}m\n"; sleep .02; done'
 alias pretty="/usr/bin/python -m json.tool | /usr/local/bin/pygmentize -O style=monokai -f console256 -g"
 alias install="sudo apt-fast install"
-alias rsubl="sudo subl"
+alias subladmin="sudo subl"
 alias repo="sudo add-apt-repository"
 alias upd="sudo apt-get update"
 alias brc="sudo subl ~/.bashrc"
 alias angular="gt_loc && cd a && cd angular-phonecat"
 alias npm="sudo npm"
 alias tech=" cd ~/Documents/MEST/Tech/"
-alias downloads=" cd ~/Downloads"
+alias downloads="cd ~/Downloads"
+alias docs="cd ~/Documents"
+alias apt-get="apt-fast"
 
 
 
@@ -216,3 +218,7 @@ export PATH=/bin:$PATH
 export PATH=/home/henry/idea/bin/:$PATH
 
 
+export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+alias ls='ls -GFh'
