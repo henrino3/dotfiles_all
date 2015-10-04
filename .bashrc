@@ -120,6 +120,7 @@ alias tech=" cd ~/Documents/MEST/Tech/"
 alias downloads="cd ~/Downloads"
 alias docs="cd ~/Documents"
 alias apt-get="apt-fast"
+alias phs="wine /home/henry/PhotoshopPortable/PhotoshopCS6Portable.exe"
 
 
 
@@ -210,7 +211,8 @@ esac
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH=usr/lib/ant/bin:/usr/lib/jvm/java-8-openjdk-amd64/jre/bin:$PATH
-export JAVA_HOME=/usr/lib/jvm/default-java
+# export JAVA_HOME=/usr/lib/jvm/default-java
+export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
 export PATH=/home/henry/adt/sdk:$PATH
 export PATH=/home/henry/adt/sdk/tools:$PATH
 export PATH=/home/henry/adt/sdk/platform-tools:$PATH
@@ -222,3 +224,5 @@ export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -GFh'
+
+# sudo apt-get update && sudo apt-get dist-upgrade && sudo apt-get autoremove
