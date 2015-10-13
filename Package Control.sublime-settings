@@ -2,7 +2,7 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"Javascript Beautify"
+		
 	],
 	"installed_packages":
 	[
@@ -12,6 +12,7 @@
 		"Java Bytecode",
 		"JavaScript Completions",
 		"Javatar",
+		"Javascript Beautify",
 		"Meteor Snippets"
 	]
 }
