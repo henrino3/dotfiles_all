@@ -2,9 +2,16 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"Javascript Beautify"
 	],
 	"installed_packages":
 	[
-		"Javatar"
+		"BracketHighlighter",
+		"Emmet",
+		"HTMLBeautify",
+		"Java Bytecode",
+		"JavaScript Completions",
+		"Javatar",
+		"Meteor Snippets"
 	]
 }
