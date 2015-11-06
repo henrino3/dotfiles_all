@@ -2,7 +2,6 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		
 	],
 	"installed_packages":
 	[
@@ -10,9 +9,11 @@
 		"Emmet",
 		"HTMLBeautify",
 		"Java Bytecode",
+		"Javascript Beautify",
 		"JavaScript Completions",
 		"Javatar",
-		"Javascript Beautify",
-		"Meteor Snippets"
+		"Meteor Snippets",
+		"Package Control",
+		"Rails Developer Snippets"
 	]
 }
