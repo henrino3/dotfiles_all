@@ -120,7 +120,8 @@ alias tech=" cd ~/Documents/MEST/Tech/"
 alias downloads="cd ~/Downloads"
 alias docs="cd ~/Documents"
 alias apt-get="apt-fast"
-alias phs="wine /home/henry/PhotoshopPortable/PhotoshopCS6Portable.exe"
+alias serverails="rails server"
+alias gtrails="cd ~/Documents/RubyonRails"
 
 
 
@@ -218,6 +219,9 @@ export PATH=/home/henry/adt/sdk/tools:$PATH
 export PATH=/home/henry/adt/sdk/platform-tools:$PATH
 export PATH=/bin:$PATH
 export PATH=/home/henry/idea/bin/:$PATH
+export PATH=ANDROID_HOME/tools:$PATH
+export PATH=ANDROID_HOME/platform-tools:$PATH
+export PATH="~/android-studio/bin/:$PATH"
 
 
 export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
@@ -225,4 +229,7 @@ export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -GFh'
 
-# sudo apt-get update && sudo apt-get dist-upgrade && sudo apt-get autoremove
+# sudo apt-get update && sudo apt-get dist-upgrade && sudo apt-get autoremoveexport PATH="$HOME/.rbenv/bin:$PATH"
+ export PATH="$HOME/.rbenv/bin:$PATH"
+ eval "$(rbenv init -)"
+export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
