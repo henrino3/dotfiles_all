@@ -1,0 +1,8 @@
+The postgres installation doesn't setup a user for you, so you'll need to follow these steps to create a user with permission to create databases. Feel free to replace chris with your username.
+
+sudo -u postgres createuser chris -s
+
+# If you would like to set a password for the user, you can do the following
+sudo -u postgres psql
+postgres=# \password chr
+
