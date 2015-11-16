@@ -5,15 +5,31 @@
 	],
 	"installed_packages":
 	[
+		"AngularJS",
+		"AngularJS (CoffeeScript)",
+		"BeautifyRuby",
+		"Better CoffeeScript",
 		"BracketHighlighter",
+		"CoffeeCompile",
+		"DocBlockr",
 		"Emmet",
+		"Glue",
 		"HTMLBeautify",
 		"Java Bytecode",
 		"Javascript Beautify",
 		"JavaScript Completions",
 		"Javatar",
+		"JsFormat",
 		"Meteor Snippets",
 		"Package Control",
-		"Rails Developer Snippets"
+		"Rails Developer Snippets",
+		"Ruby on Rails snippets",
+		"SassBeautify",
+		"SublimeLinter",
+		"SublimeLinter-coffee",
+		"SublimeLinter-coffeelint",
+		"SublimeLinter-jshint",
+		"SublimeLinter-ruby",
+		"SublimeREPL"
 	]
 }
