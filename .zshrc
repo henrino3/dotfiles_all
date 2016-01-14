@@ -97,12 +97,11 @@ alias gt_drive_user='cd /media/henry/A52E1977EF1E212C/Users/technomaniac/'
 alias gt_drive="cd /media/henry/A52E1977EF1E212C/"
 alias nodeschool="cd /media/henry/hogwarts/Nodejs/Nodeschool/"
 alias javascriptin="cd /media/henry/hogwarts/Nodejs/Nodeschool/javascripting"
-alias pf="pantheon-files"
+alias filemanager="pantheon-files"
 alias gm="cd ~/genymotion && ./genymotion"
 alias hs="hillsong"
 alias rm="rm -R"
 alias c.="cd ../"
-alias c...="../../"
 alias s="subl"
 alias h="sudo pm-hibernate"
 alias wget="wget -c"
@@ -122,7 +121,6 @@ alias apt-get="apt-fast"
 alias gtrails="cd ~/Documents/RubyonRails"
 alias localhost="http://localhost"
 alias localr="http://localhost:3000"
-alias r="railsi"
 alias sz="du -sh"
 alias gtbootstrap="cd ~/Documents/MEST/Tech/libraries/bootstrap-master/"
 alias ms="mux start"
@@ -141,6 +139,26 @@ alias herokudestroy="heroku apps:destroy --app"
 alias cleanall="sudo apt-get clean && apt-get autoclean && apt-get autoremove"
 alias ud='sudo apt-get update && sudo apt-get upgrade && sudo apt-get clean'
 alias ud2='sudo apt-get dist-upgrade'
+alias logout="gnome-session-quit --force"
+alias reboot="sudo reboot"
+alias shutdown="sudo reboot -p"
+alias rebootnow="sudo reboot -f"
+alias photoshop="wine /home/henry/.wine/dosdevices/c:/Program\ Files/PhotoshopPortable/PhotoshopCS6Portable.exe
+"
+alias javascript="gtdocs && cd Javascript"
+alias gt_meteor="javascript && cd libs/Meteor"
+alias gt_angular="javascript && cd libs/Angular"
+alias gt_ember="javascript && cd libs/EmberJs"
+alias gt_electron="javascript && cd libs/Electron"
+alias makeall="./autogen.sh && make && sudo make install"
+alias editsource="sudo vim /etc/apt/sources.list"
+alias get="aria2c"
+alias how_ghostscript="echo gs -dNOPAUSE -sDEVICE=pdfwrite -sOUTPUTFILE=firstANDsecond.pdf -dBATCH first.pdf second.pdf"
+alias ba3_check="sudo tlp-stat"
+alias addtoboot="sudo vim /etc/rc.local"
+alias whereis_appmenu="echo  /usr/share/applications/"
+alias restart_network="sudo service network-manager restart"
+alias skype="cd /home/henry/skype/ && ./skype"
 
 # aliases for Tmux
  alias tmux='tmux -2'
@@ -158,7 +176,7 @@ alias ud2='sudo apt-get dist-upgrade'
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
-
+alias nownow="function now(){ return echo 'The time is now' }"
 
 #MY SYSTEM PATHS
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
@@ -198,3 +216,4 @@ export GEM_PATH='/home/henry/.rbenv/versions/2.3.3/lib/'
 # tmuxinator
 #TMUX_COMPLETION_PATH=$(ruby -e "print Gem.bin_path('tmuxinator', 'tmuxinator_completion', '>= 0')" 2> "/dev/null") 
 # [[ -s "$TMUX_COMPLETION_PATH" ]] && source "$TMUX_COMPLETION_PATH" ]
+alias betty="~/betty/main.rb"
