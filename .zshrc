@@ -67,7 +67,7 @@ source $ZSH/oh-my-zsh.sh
    export EDITOR='vim'
  else
    export EDITOR='vim'
- fi
+fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -113,7 +113,6 @@ alias repo="sudo add-apt-repository"
 alias upd="sudo apt-get update"
 alias brc="sudo subl ~/.bashrc"
 alias angular="gt_loc && cd a && cd angular-phonecat"
-alias npm="sudo npm"
 alias tech=" cd ~/Documents/MEST/Tech/"
 alias gtloads="cd ~/Downloads"
 alias gtdocs="cd ~/Documents"
@@ -141,17 +140,18 @@ alias ud='sudo apt-get update && sudo apt-get upgrade && sudo apt-get clean'
 alias ud2='sudo apt-get dist-upgrade'
 alias logout="gnome-session-quit --force"
 alias reboot="sudo reboot"
-alias shutdown="sudo reboot -p"
+alias shdn="sudo reboot -p"
 alias rebootnow="sudo reboot -f"
 alias photoshop="wine /home/henry/.wine/dosdevices/c:/Program\ Files/PhotoshopPortable/PhotoshopCS6Portable.exe
 "
-alias javascript="gtdocs && cd Javascript"
+alias gt_js="gtdocs && cd Javascript"
+alias javascript="gt_js"
 alias gt_meteor="javascript && cd libs/Meteor"
 alias gt_angular="javascript && cd libs/Angular"
 alias gt_ember="javascript && cd libs/EmberJs"
 alias gt_electron="javascript && cd libs/Electron"
 alias makeall="./autogen.sh && make && sudo make install"
-alias editsource="sudo vim /etc/apt/sources.list"
+alias editsource="cd /etc/apt/sources.list.d && ls"
 alias get="aria2c"
 alias how_ghostscript="echo gs -dNOPAUSE -sDEVICE=pdfwrite -sOUTPUTFILE=firstANDsecond.pdf -dBATCH first.pdf second.pdf"
 alias ba3_check="sudo tlp-stat"
@@ -159,6 +159,14 @@ alias addtoboot="sudo vim /etc/rc.local"
 alias whereis_appmenu="echo  /usr/share/applications/"
 alias restart_network="sudo service network-manager restart"
 alias skype="cd /home/henry/skype/ && ./skype"
+alias timer="cd /home/henry/toggldesktop/ && ./ToggleDesktop"
+alias all_services="ps aux | less | grep "
+alias gt_smashrite="gtdocs && cd Mobile/Ionic/smashrite_mobile"
+alias gtc="gtdocs && cd Curacel"
+alias vpn="sudo openvpn vpnbook-euro1-tcp443.ovpn"
+
+
+
 
 # aliases for Tmux
  alias tmux='tmux -2'
@@ -166,6 +174,10 @@ alias skype="cd /home/henry/skype/ && ./skype"
  alias tnew='tmux new -s'
  alias tls='tmux ls'
  alias tkill='tmux kill-session -t'
+ alias python_srv=" python -m SimpleHTTPServer 8080  "
+ alias webpack="webpack-dev-server --content-base app/"
+ alias start_pg="sudo -u postgres psql "
+ alias v="vim"
 
  # convenience aliases for editing configs
  alias ev='vim ~/.vimrc'
@@ -192,7 +204,7 @@ export ANDROID_HOME="/home/henry/Android/Sdk/"
 export PATH=ANDROID_HOME/tools:$PATH
 export PATH=ANDROID_HOME/platform-tools:$PATH
 export PATH="~/android-studio/bin/:$PATH"
-
+export PATH="$PATH:~/google_appengine/"
 
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
@@ -203,6 +215,7 @@ alias ls='ls -GFh'
  eval "$(rbenv init -)"
  export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
  export RBENV_VERSION=2.2.3
+ export PATH="/home/henry/Vscode/VSCode-linux-x64/:$PATH"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  ]]
 
